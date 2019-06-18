@@ -21,7 +21,7 @@ __tests__-It contains test files
 
 ```
 
-### Run the example
+### Setup the example
 
 Clone the git folder & do these steps in folder
 
