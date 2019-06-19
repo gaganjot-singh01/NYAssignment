@@ -6,11 +6,11 @@ Project is to fetch article data from NYTime using react native framework.
 
 ### Home Page
 
-<img src="screenshots/firstPage.png" width="100" />
+<img src="screenshots/firstPage.png" width="250" />
 
 ### Detail Page
 
-![Detail Page](screenshots/detailPage.png | width=100)
+<img src="screenshots/detailPage.png" width="250" />
 
 ## Project Structure
 
