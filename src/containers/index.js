@@ -1,3 +1,4 @@
-import ArticlesPage from './articlesPage';
+import ArticlesPage from "./articlesPage";
+import ArticleDetailPage from "./articleDetailPage";
 
-export { ArticlesPage };
+export { ArticlesPage, ArticleDetailPage };

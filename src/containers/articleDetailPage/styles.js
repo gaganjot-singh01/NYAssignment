@@ -9,19 +9,6 @@ const styles = StyleSheet.create({
   loader: {
     position: "absolute",
     alignSelf: "center"
-  },
-  leftHeaderIcon: {
-    marginLeft: 10
-  },
-  rightHeaderIconContainer: {
-    flexDirection: "row"
-  },
-  searchIcon: {
-    marginLeft: 5
-  },
-  verticalIcon: {
-    marginLeft: 10,
-    marginRight: 10
   }
 });
 

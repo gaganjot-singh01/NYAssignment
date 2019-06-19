@@ -1,10 +1,10 @@
-import * as GLOBALS from '../globals';
+import * as GLOBALS from "../globals";
 
 import {
   FETCH_ARTICLES_DATA_REQUEST,
   FETCH_ARTICLES_SUCCESS,
   FETCH_ARTICLES_ERROR
-} from '../../actions/articles';
+} from "../../actions/articles";
 
 export const initialState = {
   ...GLOBALS
@@ -20,17 +20,16 @@ const articles = (state = initialState, action) => {
         isFetching: true,
         fetchSuccess: false,
         fetchError: false,
-        error: ''
+        error: ""
       };
 
     case FETCH_ARTICLES_SUCCESS:
-      console.log('payload', payload);
       return {
         ...state,
         isFetching: false,
         fetchSuccess: true,
         fetchError: false,
-        error: '',
+        error: "",
         articlesData: payload
       };
 

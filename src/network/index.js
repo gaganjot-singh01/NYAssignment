@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { BASE_URL } from '../utils/constants/apiEndpoints';
+import axios from "axios";
+import { BASE_URL } from "../utils/constants/apiEndpoints";
 
 const TIMEOUT = 30000;
 
@@ -14,10 +14,8 @@ const AxiosServer = axios.create({
  * makeNetworkCall({ method: 'get', url: '/posts' })
  */
 async function makeNetworkCall(config) {
-  console.log('Config', config);
   const response = await AxiosServer(config);
-  console.log('response', response);
-
   return response;
 }
+
 export { makeNetworkCall };

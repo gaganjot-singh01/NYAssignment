@@ -1,27 +1,29 @@
-import { Platform } from 'react-native';
-import { createStackNavigator } from 'react-navigation';
+import { Platform } from "react-native";
+import { createStackNavigator } from "react-navigation";
 
-import { ArticlesPage } from '../containers';
+import { ArticlesPage, ArticleDetailPage } from "../containers";
 
-export const ARTICLES_PAGE_ROUTE = 'articlesPage';
+export const ARTICLES_PAGE_ROUTE = "articlesPage";
+export const ARTICLE_DETAIL_PAGE_ROUTE = "articleDetailPage";
 
 export default createStackNavigator(
   {
-    articlesPage: ArticlesPage
+    articlesPage: ArticlesPage,
+    articleDetailPage: ArticleDetailPage
   },
   {
     initialRouteName: ARTICLES_PAGE_ROUTE,
     navigationOptions: {
-      headerTintColor: 'white',
+      headerTintColor: "white",
       headerTitleStyle: {
-        fontWeight: 'bold'
+        fontWeight: "bold"
       },
       headerStyle: {
         elevation: 0,
         shadowOpacity: 0,
         borderBottomWidth: 0,
-        marginTop: Platform.OS === 'ios' ? 0 : 24,
-        backgroundColor: 'rgb(71, 228, 194)'
+        marginTop: Platform.OS === "ios" ? 0 : 24,
+        backgroundColor: "rgb(71, 228, 194)"
       }
     }
   }

@@ -2,6 +2,16 @@
 
 Project is to fetch article data from NYTime using react native framework.
 
+## Application Screenshots
+
+### Home Page
+
+![Home Page](screenshots/firstPage.png)
+
+### Detail Page
+
+![Detail Page](screenshots/detailPage.png)
+
 ## Project Structure
 
 App is made using redux architecture.
@@ -42,6 +52,12 @@ Explain how to run the unit tests for the app
 ```
 npm test
 ```
+
+### Test Coverage
+
+![Test Coverage](screenshots/testcoverage.png)
+
+Open [__coverage__/lcov-report/index.html](__coverage__/lcov-report/index.html) in browser for details.
 
 ## Running on Simulator
 

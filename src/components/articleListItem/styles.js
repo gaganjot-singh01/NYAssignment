@@ -7,16 +7,15 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   leftImageContainer: {
-    flex: 0.2,
+    flex: 0.3,
     justifyContent: 'center'
   },
   leftImage: {
-    height: 40,
-    width: 40,
-    backgroundColor: 'red',
-    borderRadius: 20,
-    marginRight: 10,
-    marginLeft: 10
+    height: 30,
+    width: 30,
+    backgroundColor: 'rgb(154,154,154)',
+    borderRadius: 15,
+    marginLeft: 30
   },
   centerContentContainer: {
     flex: 1,
@@ -24,12 +23,10 @@ const styles = StyleSheet.create({
   },
   titleText: {
     color: 'black',
-    fontWeight: 'bold',
     fontSize: 14
   },
   byLineText: {
     color: 'grey',
-    fontWeight: 'bold',
     fontSize: 12,
     marginTop: 5
   },
@@ -41,12 +38,13 @@ const styles = StyleSheet.create({
   },
   dateText: {
     color: 'grey',
-    fontWeight: 'bold',
     fontSize: 12
   },
   rightArrowContainer: {
     flex: 0.1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginLeft: 10,
+    marginRight:20
   }
 });
 
